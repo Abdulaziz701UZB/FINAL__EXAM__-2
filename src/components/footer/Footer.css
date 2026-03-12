@@ -1,0 +1,155 @@
+.site-footer {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 60px;
+  background-color: #191c1f;
+  padding: 80px 10%;
+  gap: 40px;
+}
+
+.footer-identity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  max-width: 320px;
+  font-style: normal;
+}
+
+.footer-logo {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-details .label {
+  color: #adb7bc;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-details .highlight-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-details .highlight-text:hover {
+  color: #ebc80c;
+}
+
+.address-text {
+  color: #adb7bc;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-nav-groups {
+  display: flex;
+  gap: 80px;
+}
+
+.nav-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.column-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.interactive-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #929fa5;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.interactive-link:hover {
+  color: #ebc80c;
+  transform: translateX(5px);
+}
+
+.app-download-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.app-download-zone .column-title {
+  font-size: 18px;
+}
+
+.store-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.app-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  transition:
+    opacity 0.3s,
+    transform 0.2s;
+}
+
+.app-btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.app-btn img {
+  width: 180px;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .site-footer {
+    padding: 50px 5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-identity,
+  .app-download-zone,
+  .nav-column {
+    align-items: center;
+  }
+
+  .footer-nav-groups {
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

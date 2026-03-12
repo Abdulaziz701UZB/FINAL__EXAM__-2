@@ -1,0 +1,105 @@
+.top-navigation-bar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 10px 100px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.brand-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-icon-container {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #f3f9fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-bars {
+  font-size: 40px;
+  cursor: pointer;
+  color: #1a1a1a;
+}
+
+.main-logo-text {
+  font-weight: 800;
+  font-size: 40px;
+  color: #000;
+  margin: 0;
+}
+
+.promo-badge img {
+  width: 130px;
+  display: block;
+}
+
+.global-search-area {
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  border-radius: 10px;
+  gap: 12px;
+  background-color: #f3f9fb;
+}
+
+.search-symbol {
+  font-size: 25px;
+  color: #7e8e97;
+}
+
+.main-search-input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 350px;
+  background: transparent;
+  color: #333;
+}
+
+.user-utility-nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.action-trigger-btn {
+  border: none;
+  background: transparent;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.action-trigger-btn:hover {
+  opacity: 0.8;
+}
+
+.btn-thumbnail {
+  width: 30px;
+  height: auto;
+}
+
+.action-title-link {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .top-navigation-bar {
+    padding: 10px 40px;
+  }
+  .main-search-input {
+    width: 250px;
+  }
+}

@@ -1,0 +1,191 @@
+.zara-page-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.zara-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.brand-title {
+  font-size: 35px;
+  font-weight: 800;
+}
+.item-stats {
+  color: #666;
+  font-size: 18px;
+}
+
+.toolbar-actions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.qty-input {
+  width: 60px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.sort-dropdown {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.zara-layout {
+  display: flex;
+  gap: 50px;
+}
+
+.zara-sidebar {
+  width: 250px;
+  flex-shrink: 0;
+}
+.filter-toggle-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+}
+
+.brand-checklist {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.checkbox-item label {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.zara-products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  flex-grow: 1;
+}
+
+.zara-product-card {
+  background: #fff;
+  transition: transform 0.3s ease;
+}
+
+.product-image-container {
+  position: relative;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-main-img {
+  width: 100%;
+  transition: scale 0.5s ease;
+}
+.zara-product-card:hover .product-main-img {
+  scale: 1.05;
+}
+
+.product-hover-actions {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  display: flex;
+  gap: 15px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.product-image-container:hover .product-hover-actions {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.hover-icon-btn {
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+}
+.product-info {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.product-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #232321;
+}
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rating-count {
+  font-size: 14px;
+  color: #777;
+}
+
+.product-card-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.btn-primary {
+  background: #232321;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-outline {
+  background: none;
+  border: 1.5px solid #232321;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .zara-products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

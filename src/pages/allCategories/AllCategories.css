@@ -1,0 +1,146 @@
+.categories-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 50px 80px;
+}
+
+.categories-toolbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 25px;
+}
+
+.toolbar-stats {
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
+}
+
+.toolbar-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.items-counter {
+  font-weight: 500;
+  font-size: 18px;
+  color: #777;
+}
+
+.toolbar-filters {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.filter-label {
+  font-weight: 600;
+  font-size: 16px;
+  color: #444;
+}
+
+.show-input,
+.sort-select {
+  border: 1px solid #e1e1e1;
+  outline: none;
+  background-color: #f8f8f8;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.2s;
+}
+
+.show-input:focus,
+.sort-select:focus {
+  border-color: #008ecc;
+}
+
+.show-input {
+  width: 70px;
+  text-align: center;
+}
+
+.categories-main-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  width: 100%;
+}
+
+.category-item-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.category-item-tile:hover {
+  transform: translateY(-8px);
+}
+
+.category-image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  transition: all 0.3s ease;
+}
+
+.category-item-tile:hover .category-image-wrapper {
+  background-color: #ffffff;
+  box-shadow: 0 15px 35px rgba(0, 142, 204, 0.12);
+  border: 1px solid #008ecc;
+}
+
+.category-img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.category-name-text {
+  font-weight: 600;
+  font-size: 18px;
+  color: #1a1c1e;
+  margin: 0;
+}
+
+@media (max-width: 1400px) {
+  .categories-main-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .categories-main-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .categories-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
