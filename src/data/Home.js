@@ -93,13 +93,13 @@ import cCI5 from "../assets/home__categorialar--i5.png";
 import cCI6 from "../assets/home__categorialar--i6.png";
 import cCI7 from "../assets/home__categorialar--i7.png";
 
-export const categorialar_top = {
+export const cT = {
   title: "SHOP FROM",
   titleSpan: "TOP CATEGORIES",
   button: "VIEW ALL",
 };
 
-export const categorialar_cont = [
+export const c__C = [
   {
     img: cCI1,
     text: "Mobile",

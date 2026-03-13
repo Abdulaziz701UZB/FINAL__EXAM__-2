@@ -1,5 +1,5 @@
 import React from "react";
-import { categorialar_cont } from "../../data/Categorialar";
+import { c__C } from "../../data/Categorialar";
 import "./AllCategories.css";
 
 const AllCategories = () => {
@@ -28,7 +28,7 @@ const AllCategories = () => {
       </header>
 
       <section className="categories-main-grid">
-        {categorialar_cont.map((item, index) => (
+        {c__C.map((item, index) => (
           <div key={`full-cat-${index}`} className="category-item-tile">
             <div className="category-image-wrapper">
               <img src={item.img} className="category-img" />

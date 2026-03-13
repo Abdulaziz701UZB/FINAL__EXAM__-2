@@ -1,5 +1,5 @@
 import React from "react";
-import { categorialar_top, categorialar_cont } from "../../data/Home";
+import { cT, c__C } from "../../data/Home";
 import "./HomeTopCategories.css";
 
 const HomeTopCategories = () => {
@@ -7,14 +7,14 @@ const HomeTopCategories = () => {
     <section className="top-categories-section">
       <header className="categories-header">
         <h2 className="categories-title">
-          {categorialar_top.title}{" "}
-          <span className="title-highlight">{categorialar_top.titleSpan}</span>
+          {cT.title}{" "}
+          <span className="title-highlight">{cT.titleSpan}</span>
         </h2>
-        <button className="explore-all-btn">{categorialar_top.button}</button>
+        <button className="explore-all-btn">{cT.button}</button>
       </header>
 
       <div className="categories-grid-wrapper">
-        {categorialar_cont.map((item, idx) => (
+        {c__C.map((item, idx) => (
           <div key={`cat-${idx}`} className="category-item-card">
             <figure className="category-circle-box">
               <img src={item.img} className="category-thumb" />

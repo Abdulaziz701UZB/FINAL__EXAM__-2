@@ -6,13 +6,13 @@ import cCI5 from "../assets/home__categorialar--i5.png";
 import cCI6 from "../assets/home__categorialar--i6.png";
 import cCI7 from "../assets/home__categorialar--i7.png";
 
-export const categorialar_top = {
+export const cT = {
   title: "SHOP FROM",
   titleSpan: "TOP CATEGORIES",
   button: "VIEW ALL",
 };
 
-export const categorialar_cont = [
+export const c__C = [
   {
     img: cCI1,
     text: "Mobile",
@@ -159,23 +159,23 @@ export const categorialar_cont = [
   },
 ];
 
-import cartImg1 from "../assets/categorialar__i1.png";
-import cartImg2 from "../assets/categorialar__i2.png"
-import cartImg3 from "../assets/categorialar__i3.png";
+import Ci1 from "../assets/categorialar__i1.png";
+import Ci2 from "../assets/categorialar__i2.png"
+import Ci3 from "../assets/categorialar__i3.png";
 
 export const cont2 = [
   {
-    img: cartImg1,
+    img: Ci1,
     text: "Samsung Electronics Samsung Galexy S21 5G",
     price: "Rs 160",
   },
   {
-    img: cartImg2,
+    img: Ci2,
     text: "Simple Mobile 5G LTE Galexy 12 Mini 512GB Gaming Phone",
     price: "Rs 1,500",
   },
   {
-    img: cartImg3,
+    img: Ci3,
     text: "Sony DSCHX8 High Zoom Point & Shoot Camera",
     price: "Rs 2,300",
   },

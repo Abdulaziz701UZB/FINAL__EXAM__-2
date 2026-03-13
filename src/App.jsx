@@ -30,7 +30,7 @@ const header_right_cont = [
   },
 ];
 
-const categorialar_cont = [
+const c__C = [
   {
     text: "All Categories",
     to: "/all_categories",
@@ -100,7 +100,7 @@ const App = () => {
         />
         <Categorialar
           popup_right={categorialar_popup_right}
-          cont={categorialar_cont}
+          cont={c__C}
           popup_left={categorialar_popup_left}
         />
         <Routes>
