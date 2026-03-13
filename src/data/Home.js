@@ -85,13 +85,13 @@ export const deals_cont = [
   },
 ];
 
-import categorialarCartImg1 from "../assets/home__categorialar--i1.png";
-import categorialarCartImg2 from "../assets/home__categorialar--i2.png";
-import categorialarCartImg3 from "../assets/home__categorialar--i3.png";
-import categorialarCartImg4 from "../assets/home__categorialar--i4.png";
-import categorialarCartImg5 from "../assets/home__categorialar--i5.png";
-import categorialarCartImg6 from "../assets/home__categorialar--i6.png";
-import categorialarCartImg7 from "../assets/home__categorialar--i7.png";
+import cCI1 from "../assets/home__categorialar--i1.png";
+import cCI2 from "../assets/home__categorialar--i2.png";
+import cCI3 from "../assets/home__categorialar--i3.png";
+import cCI4 from "../assets/home__categorialar--i4.png";
+import cCI5 from "../assets/home__categorialar--i5.png";
+import cCI6 from "../assets/home__categorialar--i6.png";
+import cCI7 from "../assets/home__categorialar--i7.png";
 
 export const categorialar_top = {
   title: "SHOP FROM",
@@ -101,31 +101,31 @@ export const categorialar_top = {
 
 export const categorialar_cont = [
   {
-    img: categorialarCartImg1,
+    img: cCI1,
     text: "Mobile",
   },
   {
-    img: categorialarCartImg2,
+    img: cCI2,
     text: "Cosmetics",
   },
   {
-    img: categorialarCartImg3,
+    img: cCI3,
     text: "Electronics",
   },
   {
-    img: categorialarCartImg4,
+    img: cCI4,
     text: "Furniture",
   },
   {
-    img: categorialarCartImg5,
+    img: cCI5,
     text: "Watches",
   },
   {
-    img: categorialarCartImg6,
+    img: cCI6,
     text: "Decor",
   },
   {
-    img: categorialarCartImg7,
+    img: cCI7,
     text: "Accessories",
   },
 ];
