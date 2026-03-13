@@ -1,11 +1,11 @@
 import zCi from "../assets/zara__c--i.png";
-import cartStars from "../assets/zara__s.png";
+import C__S from "../assets/zara__s.png";
 
 export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -14,7 +14,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -23,7 +23,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -32,7 +32,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -41,7 +41,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -50,7 +50,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -59,7 +59,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -68,7 +68,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -77,7 +77,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -86,7 +86,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -95,7 +95,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
@@ -104,7 +104,7 @@ export const zara_cont = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
-    stars: cartStars,
+    stars: C__S,
     starsText: "4.7 ",
     starsSpan: "(21,671 Ratings)",
     btn1: "GET DEAL - ₹125",
