@@ -1,7 +1,7 @@
 import zCi from "../assets/zara__c--i.png";
 import C__S from "../assets/zara__s.png";
 
-export const zara_cont = [
+export const ZC = [
   {
     img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { zara_cont } from "../../data/Zara";
+import { ZC } from "../../data/Zara";
 import "./Zara.css";
 
 import cartImgIcon1 from "../../assets/zara__c--i1.png";
@@ -70,7 +70,7 @@ const Zara = () => {
         </aside>
 
         <section className="zara-products-grid">
-          {zara_cont.map((product, index) => (
+          {ZC.map((product, index) => (
             <article key={index} className="zara-product-card">
               <div className="product-image-container">
                 <img src={product.img} className="product-main-img" />
