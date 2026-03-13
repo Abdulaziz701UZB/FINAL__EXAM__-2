@@ -1,20 +1,20 @@
-import cartImg from "../assets/cart__i.png";
+import cI from "../assets/cart__i.png";
 
 export const cont = [
   {
     title: "Let’s create your account",
-    img: cartImg,
+    img: cI,
     count: 0,
     price: "₹25.99",
   },
   {
     title: "3 Pieces Mango set- Casual fit",
-    img: cartImg,
+    img: cI,
     price: "₹32.99",
   },
   {
     title: "Zara Cardigan-Regular fit",
-    img: cartImg,
+    img: cI,
     price: "₹40.25",
   },
 ];

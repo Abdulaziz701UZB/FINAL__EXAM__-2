@@ -1,9 +1,9 @@
-import cartImg from "../assets/zara__c--i.png";
+import zCi from "../assets/zara__c--i.png";
 import cartStars from "../assets/zara__s.png";
 
 export const zara_cont = [
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -12,7 +12,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -21,7 +21,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -30,7 +30,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -39,7 +39,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -48,7 +48,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -57,7 +57,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -66,7 +66,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -75,7 +75,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -84,7 +84,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -93,7 +93,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
@@ -102,7 +102,7 @@ export const zara_cont = [
     btn2: "BUY NOW - ₹125",
   },
   {
-    img: cartImg,
+    img: zCi,
     title: "ZARA Suit Blazer Midnight Black Cotton",
     stars: cartStars,
     starsText: "4.7 ",
